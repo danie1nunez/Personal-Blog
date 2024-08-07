@@ -1,0 +1,76 @@
+/* this css is for the main page of index.html */
+body{
+  margin:0;
+  padding:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+  --white: #ffffff;
+  --dark: rgb(29, 29, 29);
+}   
+
+nav{
+  height: 20%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#night{
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100vw;
+}
+
+#MFB{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7%;
+  border-right:  12px double rgb(197, 95, 0);
+  border-top:  12px double rgb(197, 95, 0);
+  border-bottom:  12px double rgb(197, 95, 0);
+  width: 45%;
+}
+
+#MFB h1{
+  width: 170px;
+  padding: 200px 150px;
+  border: none;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 196, 87));
+
+}
+
+#inputs{
+  display: flex;
+  flex-direction: column;
+  border-left:  12px double rgb(197, 95, 0);
+  border-top:  12px double rgb(197, 95, 0);
+  border-bottom:  12px double rgb(197, 95, 0);
+  width: 45%;
+  padding: 5% 10%;
+}
+
+#username ,#title ,#content {
+  margin: 0 0 10% 0;
+  width: 80%;
+  height: 5%;
+
+}
+
+#content{
+  height: 12%;
+  text-align: start;
+}
+
+#submit{
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
